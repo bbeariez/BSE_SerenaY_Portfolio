@@ -1,5 +1,5 @@
 # Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+My Magic Storybook transforms ideas into original stories using a Raspberry Pi, touchscreen, voice recognition, Python, and ChatGPT. Users can open the book, describe the story they want, and watch a unique story appear on the screen. My biggest challenge will be integrating the hardware and software into one reliable system, but completing it will show me how design, electronics, and programming work.
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
 ```HTML 
@@ -47,11 +47,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my BlueStamp project, I am building the Magic Storybook with ChatGPT. It is a storybook that uses a Raspberry Pi, voice recognition, a touchscreen and artificial intelligence to generate stories.
+
+When the user opens the book, a magnetic switch detects that the cover has been opened and activates the system. The user then speaks into a USB microphone and describes the kind of story they would like to read. For example, they could request a story about a cat exploring space.
+
+The Raspberry Pi converts the spoken request into text and sends the prompt to OpenAI. ChatGPT generates an original story based on the request, and the finished story appears on the touchscreen inside the book. The user can then read through the generated story using the touchscreen.
+
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
